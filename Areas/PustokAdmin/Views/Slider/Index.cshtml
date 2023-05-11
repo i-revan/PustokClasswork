@@ -1,0 +1,66 @@
+﻿@using PustokClassWork.Models;
+@model List<Slider>
+@{
+    int count = 0;
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Sliders</h4>
+            <a class="btn btn-success" asp-controller="slider" asp-action="create">Create Slider</a>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                No
+                            </th>
+                            <th>
+                                Author Name
+                            </th>
+                            <th>
+                                Book Name
+                            </th>
+                            <th>
+                                Order
+                            </th>
+                            <th>
+                                Settings
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach(Slider slider in Model) 
+                    {
+                            count++;
+                            <tr>
+                           
+                                <td>
+                                    @count
+                                </td>
+                                <td>
+                                    @slider.AuthorName
+                                </td>
+                                <td>
+                                    @slider.BookName
+                                </td>
+                                <td>
+                                    @slider.Order
+                                </td>
+                                     <td>
+                                    <a asp-controller="slider" asp-action="update" asp-route-id="@slider.Id" class="btn btn-warning"><i class="mdi mdi-grease-pencil"></i></a>
+                                    <a class="btn btn-danger"><i class=" mdi mdi-delete"></i></a>
+                                    <a class="btn btn-secondary"><i class=" mdi mdi-open-in-new"></i></a>
+                                    
+                                   
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

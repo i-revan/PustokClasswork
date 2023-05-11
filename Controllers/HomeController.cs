@@ -1,13 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PustokClassWork.DAL;
+using PustokClassWork.Models;
 
 namespace PustokClassWork.Controllers
 {
-    [Area("PustokAdmin")]
+   
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public async Task<IActionResult> Index()
+        {
+            List<Slider> sliders = await _context.Sliders.ToListAsync();
+            return View(sliders);
         }
     }
 }

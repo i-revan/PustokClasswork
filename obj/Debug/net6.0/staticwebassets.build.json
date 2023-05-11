@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JfpWf0B7iQemXnMXrCR65mAdVw9HcvzGTeV4bxRIvYo=",
+  "Hash": "mhGIwg305gWBGgwJXt/ZNM2Hs5oPR+uuyxnVAFRcJDk=",
   "Source": "PustokClassWork",
   "BasePath": "_content/PustokClassWork",
   "Mode": "Default",
@@ -2448,6 +2448,40 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-slider-2-ai.png"
     },
     {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\kitab2.png",
+      "SourceId": "PustokClassWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\",
+      "BasePath": "_content/PustokClassWork",
+      "RelativePath": "image/bg-images/kitab2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\bg-images\\kitab2.png"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\kitab3.jpeg",
+      "SourceId": "PustokClassWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\",
+      "BasePath": "_content/PustokClassWork",
+      "RelativePath": "image/bg-images/kitab3.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\bg-images\\kitab3.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\promo-banner-contained.jpg",
       "SourceId": "PustokClassWork",
       "SourceType": "Discovered",
@@ -2599,6 +2633,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-with-text-big.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\sefiller.png",
+      "SourceId": "PustokClassWork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\",
+      "BasePath": "_content/PustokClassWork",
+      "RelativePath": "image/bg-images/sefiller.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\bg-images\\sefiller.png"
     },
     {
       "Identity": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\favicon.ico",

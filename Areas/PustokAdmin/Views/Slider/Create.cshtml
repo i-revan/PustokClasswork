@@ -1,0 +1,50 @@
+﻿@model Slider
+<div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Default form</h4>
+                  <p class="card-description">
+                    Basic form layout
+                  </p>
+                  <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                    <label asp-for="AuthorName">Author Name</label>
+                    <input asp-for="AuthorName" type="text" class="form-control"  placeholder="AuthorName">
+                    <span class="text-danger" asp-validation-for="AuthorName"></span>
+                    </div>
+                    <div class="form-group">
+                    <label asp-for="BookName">Book Name</label>
+                    <input asp-for="BookName" type="text" class="form-control" placeholder="BookName">
+                    <span class="text-danger" asp-validation-for="BookName"></span>
+                    </div>
+                    <div class="form-group">
+                    <label asp-for="Description">Description</label>
+                    <input asp-for="Description" class="form-control" placeholder="Description">
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="BookPrice">Book Price</label>
+                    <input asp-for="BookPrice" class="form-control" placeholder="Password">
+                    <span class="text-danger" asp-validation-for="BookPrice"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="ButtonDescription">Button desc</label>
+                    <input asp-for="ButtonDescription"class="form-control">
+                    <span class="text-danger" asp-validation-for="ButtonDescription"></span>
+                    </div>
+                    <div class="form-group">
+                  <label asp-for="Order">Order</label>
+                  <input asp-for="Order" class="form-control">
+                  <span class="text-danger" asp-validation-for="Order"></span>
+                    </div>
+                    <div class="form-group">
+                  <label asp-for="Photo">Photo</label>
+                  <input asp-for="Photo" class="form-control">
+                    <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button asp-controller="slider" asp-action="index" class="btn btn-light">Cancel</button>
+                  </form>
+                </div>
+              </div>
+            </div>

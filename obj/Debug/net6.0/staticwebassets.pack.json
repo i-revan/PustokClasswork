@@ -573,6 +573,14 @@
       "PackagePath": "staticwebassets\\image\\bg-images\\home-slider-2-ai.png"
     },
     {
+      "Id": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\kitab2.png",
+      "PackagePath": "staticwebassets\\image\\bg-images\\kitab2.png"
+    },
+    {
+      "Id": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\kitab3.jpeg",
+      "PackagePath": "staticwebassets\\image\\bg-images\\kitab3.jpeg"
+    },
+    {
       "Id": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\promo-banner-contained.jpg",
       "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-contained.jpg"
     },
@@ -607,6 +615,10 @@
     {
       "Id": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\promo-banner-with-text.jpg",
       "PackagePath": "staticwebassets\\image\\bg-images\\promo-banner-with-text.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\bg-images\\sefiller.png",
+      "PackagePath": "staticwebassets\\image\\bg-images\\sefiller.png"
     },
     {
       "Id": "C:\\Users\\ClassTime\\Desktop\\NS\\Algorithm\\PustokClassWork\\wwwroot\\image\\favicon.ico",
