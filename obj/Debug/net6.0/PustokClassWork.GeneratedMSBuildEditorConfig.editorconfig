@@ -9,53 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PustokClassWork
 build_property.RootNamespace = PustokClassWork
-build_property.ProjectDir = C:\Users\ClassTime\Desktop\NS\Algorithm\PustokClassWork\
+build_property.ProjectDir = C:\Users\Revan\Desktop\PustokClasswork\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ClassTime\Desktop\NS\Algorithm\PustokClassWork
+build_property.MSBuildProjectDirectory = C:\Users\Revan\Desktop\PustokClasswork
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/Home/Index.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/Shared/_Layout.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/Slider/Create.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/Slider/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/Slider/Index.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/Slider/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcU2xpZGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/Slider/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/Slider/Update.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/Slider/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcU2xpZGVyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/_ViewImports.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Areas/PustokAdmin/Views/_ViewStart.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Areas/PustokAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVzdG9rQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Views/Home/Index.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Views/Shared/_Layout.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Views/_ViewImports.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ClassTime/Desktop/NS/Algorithm/PustokClassWork/Views/_ViewStart.cshtml]
+[C:/Users/Revan/Desktop/PustokClasswork/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -51,8 +51,8 @@
                                 </td>
                                      <td>
                                     <a asp-controller="slider" asp-action="update" asp-route-id="@slider.Id" class="btn btn-warning"><i class="mdi mdi-grease-pencil"></i></a>
-                                    <a class="btn btn-danger"><i class=" mdi mdi-delete"></i></a>
-                                    <a class="btn btn-secondary"><i class=" mdi mdi-open-in-new"></i></a>
+                                    <a asp-controller="slider" asp-action="delete" asp-route-id="@slider.Id" class="btn btn-danger"><i class=" mdi mdi-delete"></i></a>
+                                    <a asp-controller="slider" asp-action="details" asp-route-id="@slider.Id" class="btn btn-secondary"><i class=" mdi mdi-open-in-new"></i></a>
                                     
                                    
                                 </td>
