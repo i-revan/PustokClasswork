@@ -10,5 +10,8 @@ namespace PustokClassWork.DAL
 
         }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using PustokClassWork.DAL;
 using PustokClassWork.Models;
+using PustokClassWork.ViewModels.Home;
 
 namespace PustokClassWork.Controllers
 {
@@ -17,7 +18,13 @@ namespace PustokClassWork.Controllers
         public async Task<IActionResult> Index()
         {
             List<Slider> sliders = await _context.Sliders.ToListAsync();
-            return View(sliders);
+            List<Product> products= await _context.Products.ToListAsync();
+            HomeVM homeVM = new HomeVM()
+            {
+                sliders= sliders,
+                products=products
+            };
+            return View(homeVM);
         }
     }
 }

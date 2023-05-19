@@ -1,0 +1,53 @@
+﻿@using PustokClassWork.Models;
+@model List<Employee>
+@{
+    int count = 0;
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Employees</h4>
+            <a class="btn btn-success" asp-controller="employee" asp-action="create">Create Employee</a>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                No
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Settings
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Employee emp in Model)
+                        {
+                            count++;
+                            <tr>
+
+                                <td>
+                                    @count
+                                </td>
+                                <td>
+                                    @emp.Name
+                                </td>
+                                <td>
+                                    <a asp-controller="employee" asp-action="update" asp-route-id="@emp.Id" class="btn btn-warning"><i class="mdi mdi-grease-pencil"></i></a>
+                                    <a asp-controller="employee" asp-action="delete" asp-route-id="@emp.Id" class="btn btn-danger"><i class=" mdi mdi-delete"></i></a>
+                                    <a asp-controller="employee" asp-action="details" asp-route-id="@emp.Id" class="btn btn-secondary"><i class=" mdi mdi-open-in-new"></i></a>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

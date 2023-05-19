@@ -1,0 +1,21 @@
+﻿@model Employee
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Default form</h4>
+            <p class="card-description">
+                Basic form layout
+            </p>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" type="text" class="form-control" value="@Model.Name">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <button asp-controller="slider" asp-action="index" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+
